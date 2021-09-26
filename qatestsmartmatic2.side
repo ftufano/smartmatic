@@ -1,0 +1,211 @@
+{
+  "id": "9bb93898-cfd2-4084-aa68-5abec7bcebb0",
+  "version": "2.0",
+  "name": "qatestsmartmatic2",
+  "url": "https://www.demoblaze.com/",
+  "tests": [{
+    "id": "e761f2fd-b53d-4a11-a60f-d7c64986db87",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c5967906-8046-408f-b64e-916c884e49fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.demoblaze.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16c8b109-e33a-4d37-905d-82c268ab947a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95830dc-02cd-472e-8f5a-7246a9986755",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Nokia lumia 1520",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "a1d86ee0-a739-4745-8923-730885c8220a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nokia lumia 1520",
+      "targets": [
+        ["linkText=Nokia lumia 1520", "linkText"],
+        ["css=.col-lg-4:nth-child(2) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'Nokia lumia 1520')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=2')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nokia lumia 1520')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f568f00-d105-48e1-9846-38b08fe631c5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#more-information > p",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "be264958-4c65-4461-a0dd-16af4d1a6b68",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#more-information > p",
+      "targets": [
+        ["css=#more-information > p", "css:finder"],
+        ["xpath=//div[@id='more-information']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM.')]", "xpath:innerText"]
+      ],
+      "value": "The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM."
+    }, {
+      "id": "5a97f242-8368-4820-b28f-87dcaf90de0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .nav-link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2112971-e790-4302-97eb-a1d165c6a0dd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#login2",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "6d99d64b-95ec-4c9e-acc8-a4fa6ebf0563",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login2",
+      "targets": [
+        ["id=login2", "id"],
+        ["linkText=Log in", "linkText"],
+        ["css=#login2", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[@id='login2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd92a47-feb1-44ba-a9c0-95cdae66151e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#loginusername",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "b862534a-59ee-46ea-97af-405abdc1c052",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loginusername",
+      "targets": [
+        ["id=loginusername", "id"],
+        ["css=#loginusername", "css:finder"],
+        ["xpath=//input[@id='loginusername']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65f2ba42-8b58-4a00-998e-c94e9ee1cc99",
+      "comment": "",
+      "command": "type",
+      "target": "css=#loginusername",
+      "targets": [
+        ["id=loginusername", "id"],
+        ["css=#loginusername", "css:finder"],
+        ["xpath=//input[@id='loginusername']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "tufanop1"
+    }, {
+      "id": "53d74a77-50a5-4f7a-87eb-227f568d98d8",
+      "comment": "",
+      "command": "type",
+      "target": "css=#loginpassword",
+      "targets": [
+        ["id=loginpassword", "id"],
+        ["css=#loginpassword", "css:finder"],
+        ["xpath=//input[@id='loginpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "519b16c5-2ea3-4581-aa3b-9b4733013f48",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logInModal .btn-primary",
+      "targets": [
+        ["css=#logInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2164bfa5-3b47-4846-8940-3420e6cc79f5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Welcome tufanop1",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "d0e62a7c-6972-45e9-869c-0b07261dc314",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Welcome tufanop1",
+      "targets": [],
+      "value": "Welcome tufanop1"
+    }, {
+      "id": "50beea5d-93c6-45ef-a08c-79f42877a958",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#logout2",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "ce4f0408-6818-4e99-a3e1-71c39350c967",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logout2",
+      "targets": [
+        ["id=logout2", "id"],
+        ["linkText=Log out", "linkText"],
+        ["css=#logout2", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[@id='logout2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b875ff9f-b17e-464d-b014-e7fee8cb84c8",
+      "comment": "",
+      "command": "close",
+      "target": "https://www.demoblaze.com/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aa33bc33-e19b-415b-ae42-dbd87c3918e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e761f2fd-b53d-4a11-a60f-d7c64986db87"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
